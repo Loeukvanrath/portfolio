@@ -90,7 +90,7 @@ const Hero = () => {
           }`}>
             <p className='text-2xl lg:text-3xl font-medium animate-pulse'>
               <span className="bg-gradient-to-r from-slate-700 via-emerald-600 to-slate-700 bg-clip-text text-transparent bg-[length:200%_200%]">
-                Junior Web Developer
+                Junior Web Developer & Graphic Designer
               </span>
             </p>
             <p className='text-lg text-slate-600 leading-relaxed max-w-md'>
@@ -111,7 +111,6 @@ const Hero = () => {
             isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
           }`}>
             {[
-              { icon: FaGithubSquare, color: 'hover:text-black', label: 'GitHub', url: 'https://github.com/' },
               { icon: FaTelegram, color: 'hover:text-blue-500', label: 'Telegram', url: 'https://t.me/lvanrath' },
               { icon: FaFacebook, color: 'hover:text-blue-600', label: 'Facebook', url: 'https://www.facebook.com/share/1B7k42Z7cK/'},
             ].map((social, index) => {

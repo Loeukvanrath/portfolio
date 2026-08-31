@@ -1,8 +1,15 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact, FaPython } from 'react-icons/fa';
+import { FaHtml5, FaJs, FaReact, FaPython} from 'react-icons/fa';
+import { SiAdobephotoshop } from "react-icons/si";
 import websiteCar from './assets/website-car.png';
 import budget from './assets/budget.png';
 import ecomerce from './assets/ecomerce.png';
+import shoes from './assets/img-1.jpg';
+import home from './assets/img-3.jpg';
+import bottle from './assets/bottle.jpg';
+
+
+
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -36,31 +43,51 @@ export const skills = [
     icon: <FaPython className='h-16 w-16 text-emerald-500' />,
     text: 'Proficient in Python for developing and customizing Odoo systems, building robust business applications, automating workflows, and optimizing backend processes to support enterprise needs.',
   },
+  {
+    id: nanoid(),
+    title: 'PhotoShop',
+    icon:   <SiAdobephotoshop className='h-16 w-16 text-sky-800'/>,
+    text: 'I used to learn Photoshop to create design projects during my second year of universit.',
+  },
+  
+
 ];
 
 export const projects = [
   {
     id: nanoid(),
     img: websiteCar,
-    url: 'https://www.avis.com.kh/',
-    github: 'https://github.com/john-smilga',
     title: 'first project',
     text: 'Build Website Car Rental AVR Cambodia Using Odoo',
   },
   {
     id: nanoid(),
     img: budget,
-    url: 'https://www.budget.com.kh/',
-    github: 'https://github.com/john-smilga',
     title: 'second project',
     text: 'Build Website Budget Cambodia Using Odoo',
   },
   {
     id: nanoid(),
     img: ecomerce,
-    url: 'https://696a078d481376449af33f9b--vanrathloeuk.netlify.app/',
-    github: 'https://github.com/john-smilga',
     title: 'third project',
     text: 'Build Website E-Commerce using React Js with Tailwind',
+  },
+  {
+    id: nanoid(),
+    img: shoes,
+    title: 'third project',
+    text: 'Design Poster shoes using Photoshop',
+  },
+  {
+    id: nanoid(),
+    img: home,
+    title: 'fourth project',
+    text: 'Design home using Photoshop',
+  },
+  {
+    id: nanoid(),
+    img: bottle,
+    title: 'fifth project',
+    text: 'Design bottle using Photoshop',
   },
 ];

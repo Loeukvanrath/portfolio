@@ -11,7 +11,7 @@ const About = () => {
             My name is Vanrath. Currently, I'm 23 years old and
             currently completing my final semester (Year 4, Semester 2)
             at University of Puthisastra (UP). I have studied some
-            programming language such as Python, C, C++, Html, CSS,
+            programming language such as PhotoShop Python, C, C++, Html, CSS,
             JS, PHP ,etc. And I am passionate in technology and willing
             to learn and new experience.
           </p>
